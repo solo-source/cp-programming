@@ -11,7 +11,7 @@ int main()
     else if (y == 0 && x != 0)
         cout << "Eixo X";
     else if (x == 0 && y != 0)
-        cout << "Eixo Y";
+        cout << "Eixo Y";       
     else if (x > 0)
     {
         if (y > 0)
@@ -27,3 +27,8 @@ int main()
             cout << "Q3";
     }
 }
+
+/*
+sddmdkasdnainclude <iostream >
+
+*/
