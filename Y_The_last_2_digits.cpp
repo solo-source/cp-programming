@@ -42,6 +42,12 @@ got error -  wrong answer 1st lines differ - expected: '00', found: '0'
 
 */
 
+/*
+
+Another approach is to use modular arithmatic to shorten calculations and manage overflows.
+
+*/
+
 int main()
 {
     long long a, b, c, d;
