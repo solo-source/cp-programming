@@ -34,5 +34,5 @@ int main()
         std::cout << "NO" << std::endl;
 }
 
-got error: 
+got error: runtime error: inf is outside the range of representable values of type 'long long' on line "long long ab = pow(a, b);"
 */
