@@ -32,41 +32,6 @@
 // }
 
 // Gemini code(along with my modification): Works fine on test case.
-// #include <iostream>
-
-// void solve()
-// {
-//     int n;
-//     std::cin >> n;
-//     long long count = 0;
-//     if (n == 0)
-//     {
-//         std::cout << ++count << std::endl;
-//         return;
-//     }
-
-//     count = (n / 15) + 1; // Multiples of 15 (i % 3 == 0 && i % 5 == 0)
-
-//     // Count numbers where i % 3 == 1 and i % 5 == 1
-//     count += (n - 1) / 15 + 1;
-
-//     // Count numbers where i % 3 == 2 and i % 5 == 2
-//     count += (n - 2) / 15 + 1;
-
-//     std::cout << count << std::endl;
-//     return;
-// }
-
-// int main()
-// {
-//     int t;
-//     std::cin >> t;
-//     while (t--)
-//     {
-//         solve();
-//     }
-//     return 0;
-// }
 
 #include <iostream>  
 
